@@ -1,4 +1,4 @@
-# Trend Tracker
+# Capturing the Trends and Microtrends: From Carolyn Bessette's Elegance to the Ethereal Whimsigoth
 
 Track fashion aesthetics over time and forecast where they're headed.
 
@@ -37,11 +37,11 @@ pip install -r requirements.txt
 
 ---
 
-## The pipeline, step by step
+## Data pipeline
 
 Run every command from the main `trend-tracker` folder.
 
-### 1. Pick the aesthetics
+### 1. Pick the aesthetics.
 
 The starting list of aesthetics, their Wikipedia titles, and the first draft of summaries and key pieces were generated with an AI assistant (Claude). Every entry was then reviewed and edited by hand.
 
@@ -62,7 +62,7 @@ It fixes redirects automatically and flags articles that are missing or only a s
 
 **To add an aesthetic:** add it to the end of both files, then rerun the steps below.
 
-### 2. Build the catalog
+### 2. Build the catalog and the descriptions of the aesthetics.
 
 ```bash
 python scripts/build_catalog.py
@@ -70,7 +70,7 @@ python scripts/build_catalog.py
 
 Matches each aesthetic to the Aesthetics Wiki dataset and merges in the hand-curated data. Curated values always win. **Output:** `docs/data/catalog.json`
 
-### 3. Fetch Wikipedia trends
+### 3. Fetch Wikipedia trends.
 
 ```bash
 python scripts/fetch_trends.py
@@ -80,7 +80,7 @@ Downloads monthly page views from July 2015 to last month for every aesthetic wi
 
 **Output:** `docs/data/trends/<aesthetic>.json` and `scripts/needs_google_trends.json`
 
-### 4. Get Google Trends data
+### 4. Get Google Trends data.
 
 Google Trends has no reliable free API, so this step is a guided manual download.
 
@@ -109,7 +109,7 @@ Dark academia (blue) is the anchor. The other four are scaled against it.
 
 Search terms can be edited in `scripts/google_trends_terms.json`. Edit them **before** downloading, then rerun `make_gt_batches.py`.
 
-### 5. Import Google Trends data
+### 5. Import Google Trends data.
 
 ```bash
 python scripts/import_google_trends.py
@@ -119,7 +119,7 @@ Reads every CSV in `data/google_trends/`, rescales each batch using the anchor, 
 
 **Output:** `docs/data/trends/<aesthetic>.json`
 
-### 6. Forecast
+### 6. Forecast!
 
 ```bash
 python scripts/forecast.py
@@ -134,23 +134,6 @@ For each aesthetic this script:
 **Output:** forecasts added to each trend file, plus `docs/data/summary.json`
 
 **Always run this last.** Steps 3 and 5 rewrite the trend files without forecasts.
-
-Optional check: `python scripts/plot_one.py cottagecore` opens a chart of one aesthetic.
-
----
-
-## Run the website locally
-
-```bash
-cd docs
-python -m http.server 8000
-```
-
-Open http://localhost:8000. Opening `index.html` directly won't load the data.
-
-## Publish
-
-The site is served by GitHub Pages from the `docs/` folder (**Settings → Pages → Deploy from a branch → main → /docs**). Every push to `main` updates it.
 
 ---
 
