@@ -1,6 +1,6 @@
 # Capturing the Trends and Microtrends: From Carolyn Bessette's Elegance to the Ethereal Whimsigoth
 
-Track fashion aesthetics over time and forecast where they're headed.
+Tracking fashion aesthetics over time and forecasting where they're headed.
 
 **Live site:** https://seyounglee2001.github.io/trend-tracker/
 
