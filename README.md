@@ -6,41 +6,9 @@ Track fashion aesthetics over time and forecast where they're headed.
 
 Search any aesthetic (grunge, cottagecore, mob wife…) or a clothing piece (Doc Martens, loafers…) to see:
 
-- **What it looks like:** a summary, key pieces, color palette and brands
-- **How popular it has been:** monthly interest since July 2015
-- **Where it's headed:** a 12-month forecast with a confidence range
-
----
-
-## How it works
-
-```
-aesthetics_list.json + curated.json
-              │
-              ▼
-     build_catalog.py ─────────────► docs/data/catalog.json
-              │
-              ├── fetch_trends.py ─────────────► Wikipedia page views
-              │        │
-              │        └─► needs_google_trends.json (no usable article)
-              │                 │
-              │                 ▼
-              │        make_gt_batches.py ─► links to open on Google Trends
-              │                 │
-              │                 ▼  (download CSVs by hand)
-              │        import_google_trends.py
-              │                 │
-              ▼                 ▼
-          docs/data/trends/<aesthetic>.json
-              │
-              ▼
-         forecast.py ─────────────► forecasts + docs/data/summary.json
-              │
-              ▼
-     docs/ website (GitHub Pages)
-```
-
-All the data is prepared ahead of time by Python scripts, so the website is plain HTML, CSS and JavaScript with no server.
+- **What the aesthetic looks like:** a summary, key pieces, color palette and brands
+- **How popular the aesthetic has been:** monthly interest since July 2015
+- **Where the aesthetic is headed:** a 12-month forecast with a confidence range
 
 ---
 
