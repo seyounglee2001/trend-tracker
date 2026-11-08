@@ -80,5 +80,19 @@
   "tradwife": {"summary": "Retro domestic housewife look: modest dresses and homemaking imagery.", "items": ["floral midi dress", "apron", "cardigan", "Mary Jane shoes", "headband", "pearl earrings"]},
   "tomato-girl-summer": {"summary": "Mediterranean summer: red, gingham and sun-soaked ease.", "items": ["red gingham dress", "linen top", "straw bag", "gold jewelry", "strappy sandals", "headscarf"]},
   "vanilla-girl": {"summary": "Soft, cozy cream-on-cream minimalism.", "items": ["cream knit sweater", "ivory slip skirt", "beige leggings", "fuzzy slippers", "gold jewelry", "claw clip"]},
-  "vsco-girl": {"summary": "Late-2010s beachy teen style named after the VSCO photo app.", "items": ["oversized tee", "scrunchies", "Crocs", "shell necklace", "Birkenstocks", "Hydro Flask-style water bottle"]}
+  "vsco-girl": {"summary": "Late-2010s beachy teen style named after the VSCO photo app.", "items": ["oversized tee", "scrunchies", "Crocs", "shell necklace", "Birkenstocks", "Hydro Flask-style water bottle"]},
+  "carolyn-bessette": {
+    "summary": "1990s New York minimalism defined by Carolyn Bessette-Kennedy: clean lines, a neutral palette and a 'less is more' approach.",
+    "items": ["crisp white button-down shirt", "fitted black t-shirt", "straight-leg Levi's jeans", "silk slip dress", "long maxi skirt", "tailored black trousers", "sheer black tights", "belted wool coat", "trench coat", "kitten heels", "tortoiseshell headband", "small oval sunglasses"],
+    "colors": ["black", "white", "gray", "beige", "camel", "denim blue"],
+    "brands": ["Calvin Klein", "Prada", "Yohji Yamamoto", "Jil Sander", "Helmut Lang", "Narciso Rodriguez", "Manolo Blahnik"],
+    "related": ["quiet-luxury", "old-money", "clean-girl", "normcore", "office-siren"]
+  },
+    "dakota-johnson": {
+    "summary": "Effortless, cool-girl minimalism: relaxed tailoring and quiet-luxury basics, with a 70s boho streak and the occasional glam statement coat.",
+    "items": ["oversized blazer", "white tank top", "wide-leg trousers", "flared jeans", "slip dress", "cashmere crewneck", "leather trench coat", "leopard-print coat", "loafers", "ballet flats", "pendant necklace", "wispy curtain bangs"],
+    "colors": ["black", "white", "cream", "camel", "chocolate brown", "burgundy"],
+    "brands": ["The Row", "Gucci", "Chloé", "Versace"],
+    "related": ["carolyn-bessette", "quiet-luxury", "boho", "mob-wife", "clean-girl"]
+  }
 }

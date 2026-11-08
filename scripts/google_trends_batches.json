@@ -1,0 +1,112 @@
+[
+  {
+    "file": "batch_01.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "old-money",
+      "barbiecore",
+      "mob-wife",
+      "balletcore"
+    ]
+  },
+  {
+    "file": "batch_02.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "whimsigoth",
+      "poetcore",
+      "light-academia",
+      "blokecore"
+    ]
+  },
+  {
+    "file": "batch_03.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "techwear",
+      "coastal-grandmother",
+      "office-siren",
+      "fairycore"
+    ]
+  },
+  {
+    "file": "batch_04.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "soft-grunge",
+      "twee",
+      "pastel-goth",
+      "mori-kei"
+    ]
+  },
+  {
+    "file": "batch_05.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "angelcore",
+      "bella-swan-core",
+      "bimbocore",
+      "blokette"
+    ]
+  },
+  {
+    "file": "batch_06.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "boom-boom",
+      "christian-girl-autumn",
+      "coastal-cowgirl",
+      "coconut-girl"
+    ]
+  },
+  {
+    "file": "batch_07.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "dopamine-dressing",
+      "farmers-daughter",
+      "fancy-nancy-core",
+      "fisherman"
+    ]
+  },
+  {
+    "file": "batch_08.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "frazzled-english-woman",
+      "girlhood",
+      "grandmillennial",
+      "hot-cheeto-girl"
+    ]
+  },
+  {
+    "file": "batch_09.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "indie",
+      "mcbling",
+      "menocore",
+      "mermaidcore"
+    ]
+  },
+  {
+    "file": "batch_10.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "prairie-girl",
+      "sardine-girl",
+      "stick-of-butter",
+      "tenniscore"
+    ]
+  },
+  {
+    "file": "batch_11.csv",
+    "anchor": "dark academia",
+    "slugs": [
+      "tomato-girl-summer",
+      "vanilla-girl",
+      "carolyn-bessette",
+      "dakota-johnson"
+    ]
+  }
+]

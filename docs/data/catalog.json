@@ -476,7 +476,7 @@
       "goth",
       "punk"
     ],
-    "wiki_title": "Quiet_luxury",
+    "wiki_title": "",
     "has_wiki_data": true,
     "source_title": "Old Money"
   },
@@ -2903,22 +2903,6 @@
     "source_title": null
   },
   {
-    "slug": "shoppy-shop",
-    "name": "Shoppy Shop",
-    "summary": "",
-    "items": [],
-    "decade": null,
-    "colors": [],
-    "motifs": [],
-    "brands": [],
-    "values": [],
-    "fashion_notes": "",
-    "related": [],
-    "wiki_title": null,
-    "has_wiki_data": false,
-    "source_title": null
-  },
-  {
     "slug": "southern-gothic",
     "name": "Southern Gothic",
     "summary": "Dark romance from the American South: lace, decay and humidity.",
@@ -3197,5 +3181,75 @@
     "wiki_title": "VSCO_girl",
     "has_wiki_data": true,
     "source_title": "VSCO"
+  },
+  {
+    "slug": "carolyn-bessette",
+    "name": "Carolyn Bessette",
+    "summary": "1990s New York minimalism defined by Carolyn Bessette-Kennedy: clean lines, a neutral palette and a 'less is more' approach.",
+    "items": [
+      "crisp white button-down shirt",
+      "fitted black t-shirt",
+      "straight-leg Levi's jeans",
+      "silk slip dress",
+      "long maxi skirt",
+      "tailored black trousers",
+      "sheer black tights",
+      "belted wool coat",
+      "trench coat",
+      "kitten heels",
+      "tortoiseshell headband",
+      "small oval sunglasses"
+    ],
+    "decade": null,
+    "colors": [],
+    "motifs": [],
+    "brands": [],
+    "values": [],
+    "fashion_notes": "",
+    "related": [
+      "quiet-luxury",
+      "old-money",
+      "clean-girl",
+      "normcore",
+      "office-siren"
+    ],
+    "wiki_title": "",
+    "has_wiki_data": false,
+    "source_title": null
+  },
+  {
+    "slug": "dakota-johnson",
+    "name": "Dakota Johnson",
+    "summary": "Effortless, cool-girl minimalism: relaxed tailoring and quiet-luxury basics, with a 70s boho streak and the occasional glam statement coat.",
+    "items": [
+      "oversized blazer",
+      "white tank top",
+      "wide-leg trousers",
+      "flared jeans",
+      "slip dress",
+      "cashmere crewneck",
+      "leather trench coat",
+      "leopard-print coat",
+      "loafers",
+      "ballet flats",
+      "pendant necklace",
+      "wispy curtain bangs"
+    ],
+    "decade": null,
+    "colors": [],
+    "motifs": [],
+    "brands": [],
+    "values": [],
+    "fashion_notes": "",
+    "related": [
+      "carolyn-bessette",
+      "quiet-luxury",
+      "boho",
+      "mob-wife",
+      "clean-girl"
+    ],
+    "wiki_title": "",
+    "has_wiki_data": false,
+    "source_title": null
   }
 ]

@@ -72,7 +72,7 @@
   {
     "slug": "old-money",
     "name": "Old Money",
-    "wiki_title": "Quiet_luxury",
+    "wiki_title": "",
     "aw_title": "Old Money",
     "wiki_ok": true
   },
@@ -529,13 +529,6 @@
     "wiki_ok": false
   },
   {
-    "slug": "shoppy-shop",
-    "name": "Shoppy Shop",
-    "wiki_title": null,
-    "aw_title": "Shoppy Shop",
-    "wiki_ok": false
-  },
-  {
     "slug": "southern-gothic",
     "name": "Southern Gothic",
     "wiki_title": "Southern_Gothic",
@@ -583,5 +576,19 @@
     "wiki_title": "VSCO_girl",
     "aw_title": "VSCO",
     "wiki_ok": true
+  },
+    {
+    "slug": "carolyn-bessette",
+    "name": "Carolyn Bessette",
+    "wiki_title": "",
+    "aw_title": "Carolyn Bessette",
+    "wiki_ok": false
+  },
+    {
+    "slug": "dakota-johnson",
+    "name": "Dakota Johnson",
+    "wiki_title": "",
+    "aw_title": "Dakota Johnson",
+    "wiki_ok": false
   }
 ]
