@@ -1,0 +1,66 @@
+{
+ "slug": "e-girl",
+ "name": "E-Girl",
+ "source": "wikipedia",
+ "article": "E-girl_and_e-boy_subculture",
+ "unit": "monthly page views",
+ "updated": "2026-11-08",
+ "points": [
+  {
+   "date": "2025-09",
+   "value": 2244
+  },
+  {
+   "date": "2025-10",
+   "value": 8925
+  },
+  {
+   "date": "2025-11",
+   "value": 9531
+  },
+  {
+   "date": "2025-12",
+   "value": 8748
+  },
+  {
+   "date": "2026-01",
+   "value": 8895
+  },
+  {
+   "date": "2026-02",
+   "value": 10062
+  },
+  {
+   "date": "2026-03",
+   "value": 10008
+  },
+  {
+   "date": "2026-04",
+   "value": 10816
+  },
+  {
+   "date": "2026-05",
+   "value": 10879
+  },
+  {
+   "date": "2026-06",
+   "value": 10120
+  },
+  {
+   "date": "2026-07",
+   "value": 9555
+  },
+  {
+   "date": "2026-08",
+   "value": 10856
+  },
+  {
+   "date": "2026-09",
+   "value": 10649
+  },
+  {
+   "date": "2026-10",
+   "value": 9965
+  }
+ ]
+}
