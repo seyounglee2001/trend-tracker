@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trend Tracker</title>
+  <meta name="description" content="Fashion aesthetics tracked over time: what each one looks like, how popular it has been, and where it's headed next.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#app">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#/" aria-label="Trend Tracker home">trend<em>tracker</em></a>
+
+    <nav class="site-nav" aria-label="Main">
+      <a href="#/" data-nav="home">Trends</a>
+      <a href="#/index" data-nav="index">A to Z</a>
+      <a href="#/about" data-nav="about">About</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="header-search" id="header-search"></div>
+      <a class="btn btn--dark header-cta" href="https://github.com/seyounglee2001/trend-tracker">View code</a>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <p class="loading">Loading trends…</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <a class="wordmark wordmark--small" href="#/">trend<em>tracker</em></a>
+      <p>
+        Aesthetic details from the <a href="https://huggingface.co/datasets/ninar12/aesthetics-wiki">Aesthetics Wiki dataset</a> (MIT).
+        Popularity from <a href="https://wikimedia.org/api/rest_v1/">Wikimedia page views</a> and <a href="https://trends.google.com/">Google Trends</a>.
+        Forecasts are statistical estimates, not guarantees.
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
