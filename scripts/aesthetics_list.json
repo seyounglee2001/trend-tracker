@@ -1,0 +1,587 @@
+[
+  {
+    "slug": "grunge",
+    "name": "Grunge",
+    "wiki_title": "Grunge_(fashion)",
+    "aw_title": "Grunge",
+    "wiki_ok": true
+  },
+  {
+    "slug": "cottagecore",
+    "name": "Cottagecore",
+    "wiki_title": "Cottagecore",
+    "aw_title": "Cottagecore",
+    "wiki_ok": true
+  },
+  {
+    "slug": "y2k",
+    "name": "Y2K",
+    "wiki_title": "Y2K_aesthetic",
+    "aw_title": "Y2K",
+    "wiki_ok": true
+  },
+  {
+    "slug": "emo",
+    "name": "Emo",
+    "wiki_title": "Emo",
+    "aw_title": "Emo",
+    "wiki_ok": true
+  },
+  {
+    "slug": "dark-academia",
+    "name": "Dark Academia",
+    "wiki_title": "Dark_academia",
+    "aw_title": "Dark Academia",
+    "wiki_ok": true
+  },
+  {
+    "slug": "coquette",
+    "name": "Coquette",
+    "wiki_title": "Coquette_aesthetic",
+    "aw_title": "Coquette",
+    "wiki_ok": true
+  },
+  {
+    "slug": "gorpcore",
+    "name": "Gorpcore",
+    "wiki_title": "Gorpcore",
+    "aw_title": "Gorpcore",
+    "wiki_ok": true
+  },
+  {
+    "slug": "goth",
+    "name": "Goth",
+    "wiki_title": "Goth_subculture",
+    "aw_title": "Goth",
+    "wiki_ok": true
+  },
+  {
+    "slug": "punk",
+    "name": "Punk",
+    "wiki_title": "Punk_fashion",
+    "aw_title": "Punk",
+    "wiki_ok": true
+  },
+  {
+    "slug": "preppy",
+    "name": "Preppy",
+    "wiki_title": "Preppy",
+    "aw_title": "Preppy",
+    "wiki_ok": true
+  },
+  {
+    "slug": "old-money",
+    "name": "Old Money",
+    "wiki_title": "Quiet_luxury",
+    "aw_title": "Old Money",
+    "wiki_ok": true
+  },
+  {
+    "slug": "normcore",
+    "name": "Normcore",
+    "wiki_title": "Normcore",
+    "aw_title": "Normcore",
+    "wiki_ok": true
+  },
+  {
+    "slug": "kawaii",
+    "name": "Kawaii",
+    "wiki_title": "Kawaii",
+    "aw_title": "Kawaii",
+    "wiki_ok": true
+  },
+  {
+    "slug": "lolita",
+    "name": "Lolita",
+    "wiki_title": "Lolita_fashion",
+    "aw_title": "Lolita",
+    "wiki_ok": true
+  },
+  {
+    "slug": "scene",
+    "name": "Scene",
+    "wiki_title": "Scene_(subculture)",
+    "aw_title": "Scene",
+    "wiki_ok": true
+  },
+  {
+    "slug": "e-girl",
+    "name": "E-Girl",
+    "wiki_title": "E-girl_and_e-boy_subculture",
+    "aw_title": "E-Girl",
+    "wiki_ok": true
+  },
+  {
+    "slug": "barbiecore",
+    "name": "Barbiecore",
+    "wiki_title": "Barbie",
+    "aw_title": "Barbiecore",
+    "wiki_section": true,
+    "wiki_ok": true
+  },
+  {
+    "slug": "boho",
+    "name": "Boho",
+    "wiki_title": "Boho-chic",
+    "aw_title": "Bohemian",
+    "wiki_ok": true
+  },
+  {
+    "slug": "hippie",
+    "name": "Hippie",
+    "wiki_title": "Hippie",
+    "aw_title": "Hippie",
+    "wiki_ok": true
+  },
+  {
+    "slug": "streetwear",
+    "name": "Streetwear",
+    "wiki_title": "Streetwear",
+    "aw_title": "Streetwear",
+    "wiki_ok": true
+  },
+  {
+    "slug": "athleisure",
+    "name": "Athleisure",
+    "wiki_title": "Athleisure",
+    "aw_title": "Athleisure",
+    "wiki_ok": true
+  },
+  {
+    "slug": "indie-sleaze",
+    "name": "Indie Sleaze",
+    "wiki_title": "Indie_sleaze",
+    "aw_title": "Indie Sleaze",
+    "wiki_ok": true
+  },
+  {
+    "slug": "quiet-luxury",
+    "name": "Quiet Luxury",
+    "wiki_title": "Quiet_luxury",
+    "aw_title": "Quiet Luxury",
+    "wiki_ok": true
+  },
+  {
+    "slug": "mob-wife",
+    "name": "Mob Wife",
+    "wiki_title": "Mob_wife_aesthetic",
+    "aw_title": "Mob Wife",
+    "wiki_ok": false
+  },
+  {
+    "slug": "clean-girl",
+    "name": "Clean Girl",
+    "wiki_title": "Clean_girl_aesthetic",
+    "aw_title": "Clean Girl",
+    "wiki_ok": true
+  },
+  {
+    "slug": "balletcore",
+    "name": "Balletcore",
+    "wiki_title": "Ballet_and_fashion",
+    "aw_title": "Balletcore",
+    "wiki_section": true,
+    "wiki_ok": true
+  },
+  {
+    "slug": "romantic-goth",
+    "name": "Romantic Goth",
+    "wiki_title": "Gothic_fashion",
+    "aw_title": "Romantic Goth",
+    "wiki_ok": true
+  },
+  {
+    "slug": "whimsigoth",
+    "name": "Whimsigoth",
+    "wiki_title": null,
+    "aw_title": "Whimsigoth",
+    "wiki_ok": false
+  },
+  {
+    "slug": "poetcore",
+    "name": "Poetcore",
+    "wiki_title": null,
+    "aw_title": "Poetcore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "light-academia",
+    "name": "Light Academia",
+    "wiki_title": null,
+    "aw_title": "Light Academia",
+    "wiki_ok": false
+  },
+  {
+    "slug": "sloane-ranger",
+    "name": "Sloane Ranger",
+    "wiki_title": "Sloane_Ranger",
+    "aw_title": "Sloane Ranger",
+    "wiki_ok": true
+  },
+  {
+    "slug": "western",
+    "name": "Western",
+    "wiki_title": "Western_wear",
+    "aw_title": "Western",
+    "wiki_ok": true
+  },
+  {
+    "slug": "blokecore",
+    "name": "Blokecore",
+    "wiki_title": "Blokecore",
+    "aw_title": "Blokecore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "techwear",
+    "name": "Techwear",
+    "wiki_title": "Techwear",
+    "aw_title": "Techwear",
+    "wiki_ok": false
+  },
+  {
+    "slug": "coastal-grandmother",
+    "name": "Coastal Grandmother",
+    "wiki_title": "Coastal_grandmother",
+    "aw_title": "Coastal Grandmother",
+    "wiki_ok": false
+  },
+  {
+    "slug": "office-siren",
+    "name": "Office Siren",
+    "wiki_title": null,
+    "aw_title": "Office Siren",
+    "wiki_ok": false
+  },
+  {
+    "slug": "kidcore",
+    "name": "Kidcore",
+    "wiki_title": "Kidcore",
+    "aw_title": "Kidcore",
+    "wiki_ok": true
+  },
+  {
+    "slug": "fairycore",
+    "name": "Fairycore",
+    "wiki_title": null,
+    "aw_title": "Fairycore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "soft-grunge",
+    "name": "Soft Grunge",
+    "wiki_title": null,
+    "aw_title": "Soft Grunge",
+    "wiki_ok": false
+  },
+  {
+    "slug": "twee",
+    "name": "Twee",
+    "wiki_title": null,
+    "aw_title": "Twee",
+    "wiki_ok": false
+  },
+  {
+    "slug": "pastel-goth",
+    "name": "Pastel Goth",
+    "wiki_title": null,
+    "aw_title": "Pastel Goth",
+    "wiki_ok": false
+  },
+  {
+    "slug": "cybergoth",
+    "name": "Cybergoth",
+    "wiki_title": "Cybergoth",
+    "aw_title": "Cybergoth",
+    "wiki_ok": true
+  },
+  {
+    "slug": "mod",
+    "name": "Mod",
+    "wiki_title": "Mod_(subculture)",
+    "aw_title": "Mod",
+    "wiki_ok": true
+  },
+  {
+    "slug": "rockabilly",
+    "name": "Rockabilly",
+    "wiki_title": "Rockabilly",
+    "aw_title": "Rockabilly",
+    "wiki_ok": true
+  },
+  {
+    "slug": "hip-hop",
+    "name": "Hip Hop",
+    "wiki_title": "Hip-hop_fashion",
+    "aw_title": "Hip Hop",
+    "wiki_ok": true
+  },
+  {
+    "slug": "vaporwave",
+    "name": "Vaporwave",
+    "wiki_title": "Vaporwave",
+    "aw_title": "Vaporwave",
+    "wiki_ok": true
+  },
+  {
+    "slug": "visual-kei",
+    "name": "Visual Kei",
+    "wiki_title": "Visual_kei",
+    "aw_title": "Visual Kei",
+    "wiki_ok": true
+  },
+  {
+    "slug": "gyaru",
+    "name": "Gyaru",
+    "wiki_title": "Gyaru",
+    "aw_title": "Gyaru",
+    "wiki_ok": true
+  },
+  {
+    "slug": "mori-kei",
+    "name": "Mori Kei",
+    "wiki_title": "Japanese_street_fashion",
+    "aw_title": "Mori Kei",
+    "wiki_section": true,
+    "wiki_ok": true
+  },
+  {
+    "slug": "americana",
+    "name": "Americana",
+    "wiki_title": "Americana",
+    "aw_title": "Americana",
+    "wiki_ok": true
+  },
+  {
+    "slug": "angelcore",
+    "name": "Angelcore",
+    "wiki_title": null,
+    "aw_title": "Angelcore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "bella-swan-core",
+    "name": "Bella Swan Core",
+    "wiki_title": null,
+    "aw_title": "Bella Swan",
+    "wiki_ok": false
+  },
+  {
+    "slug": "bimbocore",
+    "name": "Bimbocore",
+    "wiki_title": null,
+    "aw_title": "Bimbocore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "blokette",
+    "name": "Blokette",
+    "wiki_title": null,
+    "aw_title": "Blokette",
+    "wiki_ok": false
+  },
+  {
+    "slug": "boom-boom",
+    "name": "Boom Boom",
+    "wiki_title": null,
+    "aw_title": "Boom Boom",
+    "wiki_ok": false
+  },
+  {
+    "slug": "brat-summer",
+    "name": "Brat Summer",
+    "wiki_title": "Brat_Summer",
+    "aw_title": "Brat",
+    "wiki_ok": true
+  },
+  {
+    "slug": "christian-girl-autumn",
+    "name": "Christian Girl Autumn",
+    "wiki_title": null,
+    "aw_title": "Christian Girl Autumn",
+    "wiki_ok": false
+  },
+  {
+    "slug": "coastal-cowgirl",
+    "name": "Coastal Cowgirl",
+    "wiki_title": null,
+    "aw_title": "Coastal Cowgirl",
+    "wiki_ok": false
+  },
+  {
+    "slug": "coconut-girl",
+    "name": "Coconut Girl",
+    "wiki_title": null,
+    "aw_title": "Coconut Girl",
+    "wiki_ok": false
+  },
+  {
+    "slug": "dopamine-dressing",
+    "name": "Dopamine Dressing",
+    "wiki_title": "Dopamine_dressing",
+    "aw_title": "Dopamine Dressing",
+    "wiki_ok": false
+  },
+  {
+    "slug": "farmers-daughter",
+    "name": "Farmer's Daughter",
+    "wiki_title": null,
+    "aw_title": "Farmer's Daughter",
+    "wiki_ok": false
+  },
+  {
+    "slug": "fancy-nancy-core",
+    "name": "Fancy Nancy Core",
+    "wiki_title": null,
+    "aw_title": "Fancy Nancy",
+    "wiki_ok": false
+  },
+  {
+    "slug": "fisherman",
+    "name": "Fisherman Aesthetic",
+    "wiki_title": null,
+    "aw_title": "Fisherman",
+    "wiki_ok": false
+  },
+  {
+    "slug": "frazzled-english-woman",
+    "name": "Frazzled English Woman",
+    "wiki_title": null,
+    "aw_title": "Frazzled English Woman",
+    "wiki_ok": false
+  },
+  {
+    "slug": "girlhood",
+    "name": "Girlhood Aesthetic",
+    "wiki_title": null,
+    "aw_title": "Girlhood",
+    "wiki_ok": false
+  },
+  {
+    "slug": "goblincore",
+    "name": "Goblincore",
+    "wiki_title": "Goblincore",
+    "aw_title": "Goblincore",
+    "wiki_ok": true
+  },
+  {
+    "slug": "grandmillennial",
+    "name": "Grandmillennial",
+    "wiki_title": "Grandmillennial",
+    "aw_title": "Grandmillennial",
+    "wiki_ok": false
+  },
+  {
+    "slug": "hot-cheeto-girl",
+    "name": "Hot Cheeto Girl",
+    "wiki_title": null,
+    "aw_title": "Hot Cheeto Girl",
+    "wiki_ok": false
+  },
+  {
+    "slug": "hot-girl-summer",
+    "name": "Hot Girl Summer",
+    "wiki_title": "Hot_Girl_Summer",
+    "aw_title": "Hot Girl Summer",
+    "wiki_ok": true
+  },
+  {
+    "slug": "indie",
+    "name": "Indie",
+    "wiki_title": null,
+    "aw_title": "Indie",
+    "wiki_ok": false
+  },
+  {
+    "slug": "mcbling",
+    "name": "McBling",
+    "wiki_title": "2020s_in_fashion",
+    "aw_title": "McBling",
+    "wiki_section": true,
+    "wiki_ok": true
+  },
+  {
+    "slug": "menocore",
+    "name": "Menocore",
+    "wiki_title": null,
+    "aw_title": "Menocore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "mermaidcore",
+    "name": "Mermaidcore",
+    "wiki_title": null,
+    "aw_title": "Mermaidcore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "prairie-girl",
+    "name": "Prairie Girl",
+    "wiki_title": null,
+    "aw_title": "Prairiecore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "sardine-girl",
+    "name": "Sardine Girl",
+    "wiki_title": null,
+    "aw_title": "Sardine Girl",
+    "wiki_ok": false
+  },
+  {
+    "slug": "shoppy-shop",
+    "name": "Shoppy Shop",
+    "wiki_title": null,
+    "aw_title": "Shoppy Shop",
+    "wiki_ok": false
+  },
+  {
+    "slug": "southern-gothic",
+    "name": "Southern Gothic",
+    "wiki_title": "Southern_Gothic",
+    "aw_title": "Southern Gothic",
+    "wiki_ok": true
+  },
+  {
+    "slug": "stick-of-butter",
+    "name": "Stick of Butter Dressing",
+    "wiki_title": null,
+    "aw_title": "Stick of Butter",
+    "wiki_ok": false
+  },
+  {
+    "slug": "tenniscore",
+    "name": "Tenniscore",
+    "wiki_title": null,
+    "aw_title": "Tenniscore",
+    "wiki_ok": false
+  },
+  {
+    "slug": "tradwife",
+    "name": "Tradwife",
+    "wiki_title": "Tradwife",
+    "aw_title": "Tradwife",
+    "wiki_ok": true
+  },
+  {
+    "slug": "tomato-girl-summer",
+    "name": "Tomato Girl Summer",
+    "wiki_title": null,
+    "aw_title": "Tomato Girl",
+    "wiki_ok": false
+  },
+  {
+    "slug": "vanilla-girl",
+    "name": "Vanilla Girl",
+    "wiki_title": null,
+    "aw_title": "Vanilla Girl",
+    "wiki_ok": false
+  },
+  {
+    "slug": "vsco-girl",
+    "name": "VSCO Girl",
+    "wiki_title": "VSCO_girl",
+    "aw_title": "VSCO",
+    "wiki_ok": true
+  }
+]
