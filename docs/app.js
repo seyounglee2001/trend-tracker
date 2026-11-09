@@ -508,7 +508,7 @@ function renderHome() {
       <div class="hero__photos" aria-hidden="true">${heroPhotosHTML()}</div>
       <div class="hero__inner">
         <p class="hero__kicker">${state.catalog.length} aesthetics. Real people. Real outfits.</p>
-        <h1 class="hero__title">Track the<em>aesthetics</em></h1>
+        <h1 class="hero__title">track the<em>aesthetics</em></h1>
         <div id="hero-search"></div>
       </div>
     </section>
