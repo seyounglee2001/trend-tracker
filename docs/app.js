@@ -1,4 +1,4 @@
-/* Trend Tracker
+/* trend tracker
    Reads the JSON your Python scripts write into docs/data/ and renders:
    #/            home: search + what's moving
    #/t/<slug>    one aesthetic: chart, forecast, pieces, palette
@@ -441,7 +441,7 @@ function dataTable(trend) {
 
 function setPage(name, title) {
   document.body.dataset.page = name;
-  document.title = title ? `${title} | Trend Tracker` : "Trend Tracker";
+  document.title = title ? `${title} | trend tracker` : "trend tracker";
   document.querySelectorAll(".site-nav a").forEach((a) => {
     if (a.dataset.nav === name) a.setAttribute("aria-current", "page");
     else a.removeAttribute("aria-current");
@@ -457,7 +457,7 @@ const HERO_PHOTOS = [
   "img/hero/look-3.webp",
   "img/hero/look-4.webp",
 ];
-const HERO_LOOP_SECONDS = 18;
+const HERO_LOOP_SECONDS = 32; // one full emerge, rest and fade cycle
 
 function heroPhotosHTML() {
   // One slot per photo (up to 6), spaced evenly through the loop
@@ -465,7 +465,7 @@ function heroPhotosHTML() {
   return photos
     .map((src, i) => {
       const delay = -((i * HERO_LOOP_SECONDS) / photos.length).toFixed(2);
-      return `<span class="drift drift--${i}" style="--delay:${delay}s"><img src="${esc(src)}" alt="" decoding="async"></span>`;
+      return `<span class="drift drift--${i}" style="--delay:${delay}s; --loop:${HERO_LOOP_SECONDS}s"><img src="${esc(src)}" alt="" decoding="async"></span>`;
     })
     .join("");
 }

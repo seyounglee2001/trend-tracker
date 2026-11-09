@@ -295,8 +295,9 @@ body:not([data-page="home"]) .header-cta { display: none; }
 
 /* Floating palette cards, like photos pinned around the headline */
 /* Photos drift out from behind the headline, settle, then fade.
-   Each slot has its own landing spot and starts 3s after the last,
-   so a new photo is always emerging while an older one leaves. */
+   Each slot has its own landing spot and the slots are spaced evenly
+   through one long loop, so a new photo is always slowly emerging
+   while an older one leaves. */
 .hero__photos {
   position: absolute;
   inset: 0;
@@ -310,10 +311,11 @@ body:not([data-page="home"]) .header-cta { display: none; }
   top: 46%;
   width: var(--w);
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.5);
-  animation: drift 18s cubic-bezier(0.22, 0.68, 0.16, 1) infinite;
+  transform: translate(-50%, -50%) scale(0.72);
+  filter: blur(6px);
+  animation: drift var(--loop, 32s) cubic-bezier(0.45, 0, 0.2, 1) infinite;
   animation-delay: var(--delay);
-  will-change: transform, opacity;
+  will-change: transform, opacity, filter;
 }
 .drift img {
   width: 100%;
@@ -322,13 +324,14 @@ body:not([data-page="home"]) .header-cta { display: none; }
   filter: saturate(0.85);
 }
 
+/* Emerge slowly and softly (blurred to sharp), rest, then dissolve */
 @keyframes drift {
-  0%   { opacity: 0;   transform: translate(-50%, -50%) scale(0.5); }
-  8%   { opacity: 0.35; }
-  26%  { opacity: 1;   transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y))) scale(1); }
-  62%  { opacity: 1;   transform: translate(calc(-50% + var(--x) * 1.04), calc(-50% + var(--y) * 1.04)) scale(1); }
-  78%  { opacity: 0;   transform: translate(calc(-50% + var(--x) * 1.1), calc(-50% + var(--y) * 1.1)) scale(1.02); }
-  100% { opacity: 0;   transform: translate(calc(-50% + var(--x) * 1.1), calc(-50% + var(--y) * 1.1)) scale(1.02); }
+  0%   { opacity: 0;    filter: blur(6px); transform: translate(-50%, -50%) scale(0.72); }
+  10%  { opacity: 0.25; filter: blur(4px); }
+  32%  { opacity: 1;    filter: blur(0);   transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y))) scale(1); }
+  70%  { opacity: 1;    filter: blur(0);   transform: translate(calc(-50% + var(--x) * 1.03), calc(-50% + var(--y) * 1.03)) scale(1); }
+  88%  { opacity: 0;    filter: blur(3px); transform: translate(calc(-50% + var(--x) * 1.07), calc(-50% + var(--y) * 1.07)) scale(1.02); }
+  100% { opacity: 0;    filter: blur(3px); transform: translate(calc(-50% + var(--x) * 1.07), calc(-50% + var(--y) * 1.07)) scale(1.02); }
 }
 
 /* Landing spots around the headline, kept clear of the text and search bar */
@@ -835,6 +838,7 @@ body:not([data-page="home"]) .header-cta { display: none; }
 @media (prefers-reduced-motion: reduce) {
   .drift {
     animation: none;
+    filter: none;
     opacity: 0.9;
     transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y)));
   }
