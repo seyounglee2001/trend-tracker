@@ -449,16 +449,25 @@ function setPage(name, title) {
   if (activeChart?.observer) { activeChart.observer.disconnect(); activeChart = null; }
 }
 
-function pickTiles(count) {
-  const candidates = state.catalog.filter((a) => paletteOf(a).length >= 3);
-  // Same picks all day, new picks tomorrow
-  let seed = Number(new Date().toISOString().slice(0, 10).replace(/-/g, ""));
-  const rand = () => ((seed = (seed * 9301 + 49297) % 233280) / 233280);
-  return candidates
-    .map((a) => ({ a, r: rand() }))
-    .sort((x, y) => x.r - y.r)
-    .slice(0, count)
-    .map((x) => x.a);
+/* Photos that drift out from behind the home headline.
+   Add or swap photos in docs/img/hero/ and list them here. */
+const HERO_PHOTOS = [
+  "img/hero/look-1.webp",
+  "img/hero/look-2.webp",
+  "img/hero/look-3.webp",
+  "img/hero/look-4.webp",
+];
+const HERO_LOOP_SECONDS = 18;
+
+function heroPhotosHTML() {
+  // One slot per photo (up to 6), spaced evenly through the loop
+  const photos = HERO_PHOTOS.slice(0, 6);
+  return photos
+    .map((src, i) => {
+      const delay = -((i * HERO_LOOP_SECONDS) / photos.length).toFixed(2);
+      return `<span class="drift drift--${i}" style="--delay:${delay}s"><img src="${esc(src)}" alt="" decoding="async"></span>`;
+    })
+    .join("");
 }
 
 function rowHTML(s, { showChange = true } = {}) {
@@ -471,7 +480,6 @@ function rowHTML(s, { showChange = true } = {}) {
 
 function renderHome() {
   setPage("home");
-  const tiles = pickTiles(4);
   const live = state.summary.filter((s) => s.status && s.status !== "not enough data");
   const by = (fn) => (a, b) => fn(a) - fn(b);
 
@@ -497,18 +505,10 @@ function renderHome() {
 
   app.innerHTML = `
     <section class="hero">
-      ${tiles
-        .map((a, i) => {
-          const pal = paletteOf(a).slice(0, 5);
-          return `<a class="tile tile--${i}" href="#/t/${esc(a.slug)}">
-            <span class="tile__swatch">${pal.map((c) => `<span style="background:${c.css}"></span>`).join("")}</span>
-            <span class="tile__name">${esc(a.name)}</span>
-          </a>`;
-        })
-        .join("")}
+      <div class="hero__photos" aria-hidden="true">${heroPhotosHTML()}</div>
       <div class="hero__inner">
-        <p class="hero__kicker">${state.catalog.length} aesthetics, tracked since 2015</p>
-        <h1 class="hero__title">Every aesthetic,<em>and where it’s headed.</em></h1>
+        <p class="hero__kicker">${state.catalog.length} aesthetics. Real people. Real outfits.</p>
+        <h1 class="hero__title">Track the<em>aesthetics</em></h1>
         <div id="hero-search"></div>
       </div>
     </section>
